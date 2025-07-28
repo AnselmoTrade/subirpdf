@@ -1,5 +1,5 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
-# More GitHub Actions for Azure: https://github.com/Azure/actions
+# Más GitHub Actions para Azure: https://github.com/Azure/actions
 
 name: Build and deploy PHP app to Azure Web App - anselmo
 
@@ -66,6 +66,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'anselmo'           # El nombre exacto del App Service en Azure
+          app-name: 'anselmo'         # Cambia si tu App Service tiene otro nombre
           slot-name: 'Production'
           package: .
